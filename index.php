@@ -200,17 +200,18 @@ http://www.templatemo.com/tm-511-journey
                     ';
                     } else {
                     echo '
-                    <section class="tm-slideshow-section">
-                    <div class="tm-slideshow-description tm-bg-primary">
-                        <h2 class="">'.$item['name'].'</h2>
-                        <p>'.$item['text'].'</p>
-                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
-                    </div>
-                    <div class="tm-slideshow">
+                    <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+                    <div class="tm-right tm-slideshow tm-slideshow-highlight">
                         <img src="'.$item['fotka1'].'" alt="Image">
                         <img src="'.$item['fotka2'].'" alt="Image">
                         <img src="'.$item['fotka3'].'" alt="Image">    
                     </div>
+                    <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+                        <h2 class="">'.$item['name'].'</h2>
+                        <p>'.$item['text'].'</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                    
                 </section>
                     ';}
                     $i = $i +1;
